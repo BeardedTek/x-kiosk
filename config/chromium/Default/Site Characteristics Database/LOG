@@ -1,2 +1,3 @@
-2021/08/18-06:47:27.077 8a Creating DB /root/.config/chromium/Default/Site Characteristics Database since it was missing.
-2021/08/18-06:47:27.899 8a Reusing MANIFEST /root/.config/chromium/Default/Site Characteristics Database/MANIFEST-000001
+2021/08/18-16:23:29.601 a5 Reusing MANIFEST /root/.config/chromium/Default/Site Characteristics Database/MANIFEST-000001
+2021/08/18-16:23:29.601 a5 Recovering log #3
+2021/08/18-16:23:29.601 a5 Reusing old log /root/.config/chromium/Default/Site Characteristics Database/000003.log 

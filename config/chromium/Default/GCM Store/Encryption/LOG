@@ -1,2 +1,3 @@
-2021/08/18-06:47:34.516 a2 Creating DB /root/.config/chromium/Default/GCM Store/Encryption since it was missing.
-2021/08/18-06:47:34.891 a2 Reusing MANIFEST /root/.config/chromium/Default/GCM Store/Encryption/MANIFEST-000001
+2021/08/18-16:23:35.405 bc Reusing MANIFEST /root/.config/chromium/Default/GCM Store/Encryption/MANIFEST-000001
+2021/08/18-16:23:35.405 bc Recovering log #3
+2021/08/18-16:23:35.406 bc Reusing old log /root/.config/chromium/Default/GCM Store/Encryption/000003.log 

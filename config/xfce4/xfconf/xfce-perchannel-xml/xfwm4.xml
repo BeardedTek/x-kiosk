@@ -6,7 +6,7 @@
     <property name="borderless_maximize" type="bool" value="true"/>
     <property name="box_move" type="bool" value="false"/>
     <property name="box_resize" type="bool" value="false"/>
-    <property name="button_layout" type="string" value="O|SHMC"/>
+    <property name="button_layout" type="string" value="|"/>
     <property name="button_offset" type="int" value="0"/>
     <property name="button_spacing" type="int" value="0"/>
     <property name="click_to_focus" type="bool" value="true"/>
@@ -20,7 +20,7 @@
     <property name="double_click_action" type="string" value="maximize"/>
     <property name="double_click_distance" type="int" value="5"/>
     <property name="double_click_time" type="int" value="250"/>
-    <property name="easy_click" type="string" value="Alt"/>
+    <property name="easy_click" type="string" value="None"/>
     <property name="focus_delay" type="int" value="250"/>
     <property name="focus_hint" type="bool" value="true"/>
     <property name="focus_new" type="bool" value="true"/>
@@ -70,18 +70,21 @@
     <property name="unredirect_overlays" type="bool" value="true"/>
     <property name="urgent_blink" type="bool" value="false"/>
     <property name="use_compositing" type="bool" value="true"/>
-    <property name="workspace_count" type="int" value="4"/>
-    <property name="wrap_cycle" type="bool" value="true"/>
-    <property name="wrap_layout" type="bool" value="true"/>
-    <property name="wrap_resistance" type="int" value="10"/>
-    <property name="wrap_windows" type="bool" value="true"/>
-    <property name="wrap_workspaces" type="bool" value="false"/>
-    <property name="zoom_desktop" type="bool" value="true"/>
+    <property name="workspace_count" type="int" value="1"/>
     <property name="workspace_names" type="array">
       <value type="string" value="Workspace 1"/>
       <value type="string" value="Workspace 2"/>
       <value type="string" value="Workspace 3"/>
       <value type="string" value="Workspace 4"/>
     </property>
+    <property name="wrap_cycle" type="bool" value="true"/>
+    <property name="wrap_layout" type="bool" value="true"/>
+    <property name="wrap_resistance" type="int" value="10"/>
+    <property name="wrap_windows" type="bool" value="true"/>
+    <property name="wrap_workspaces" type="bool" value="false"/>
+    <property name="zoom_desktop" type="bool" value="true"/>
+    <property name="margin_top" type="int" value="0"/>
+    <property name="margin_right" type="int" value="0"/>
+    <property name="margin_bottom" type="int" value="192"/>
   </property>
 </channel>

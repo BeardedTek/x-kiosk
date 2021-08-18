@@ -1,0 +1,15 @@
+2021/08/18-18:26:26.366 fc6 Reusing MANIFEST /root/.config/chromium/Default/IndexedDB/https_ha.jeandr.net_0.indexeddb.leveldb/MANIFEST-000001
+2021/08/18-18:26:26.366 fc6 Recovering log #30
+2021/08/18-18:26:26.366 fc6 Reusing old log /root/.config/chromium/Default/IndexedDB/https_ha.jeandr.net_0.indexeddb.leveldb/000030.log 
+2021/08/18-18:27:04.935 105c Level-0 table #35: started
+2021/08/18-18:27:04.988 105c Level-0 table #35: 4217 bytes OK
+2021/08/18-18:27:05.063 105c Delete type=0 #30
+2021/08/18-18:27:05.063 105c Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2021/08/18-18:27:05.063 105c Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x02\x01 \x03\x00\x80\x8c;\xa8\xb5wB\x00\x01U\x00f\x00i\x00l\x00e\x00-\x00c\x00a\x00c\x00h\x00e\x00|\x00h\x00t\x00t\x00p\x00s\x00:\x00/\x00/\x00h\x00a\x00.\x00j\x00e\x00a\x00n\x00d\x00r\x00.\x00n\x00e\x00t\x00/\x00h\x00a\x00c\x00s\x00f\x00i\x00l\x00e\x00s\x00/\x00u\x00p\x00c\x00o\x00m\x00i\x00n\x00g\x00-\x00m\x00e\x00d\x00i\x00a\x00-\x00c\x00a\x00r\x00d\x00/\x00u\x00p\x00c\x00o\x00m\x00i\x00n\x00g\x00-\x00m\x00e\x00d\x00i\x00a\x00-\x00c\x00a\x00r\x00d\x00.\x00j\x00s' @ 16151 : 1
+2021/08/18-18:27:05.063 105c Compacting 1@1 + 1@2 files
+2021/08/18-18:27:05.130 105c Generated table #36@1: 3287 keys, 427462 bytes
+2021/08/18-18:27:05.130 105c Compacted 1@1 + 1@2 files => 427462 bytes
+2021/08/18-18:27:05.221 105c compacted to: files[ 0 0 1 0 0 0 0 ]
+2021/08/18-18:27:05.221 105c Delete type=2 #32
+2021/08/18-18:27:05.221 105c Delete type=2 #35
+2021/08/18-18:27:05.222 105c Manual compaction at level-1 from '\x00\x02\x01 \x03\x00\x80\x8c;\xa8\xb5wB\x00\x01U\x00f\x00i\x00l\x00e\x00-\x00c\x00a\x00c\x00h\x00e\x00|\x00h\x00t\x00t\x00p\x00s\x00:\x00/\x00/\x00h\x00a\x00.\x00j\x00e\x00a\x00n\x00d\x00r\x00.\x00n\x00e\x00t\x00/\x00h\x00a\x00c\x00s\x00f\x00i\x00l\x00e\x00s\x00/\x00u\x00p\x00c\x00o\x00m\x00i\x00n\x00g\x00-\x00m\x00e\x00d\x00i\x00a\x00-\x00c\x00a\x00r\x00d\x00/\x00u\x00p\x00c\x00o\x00m\x00i\x00n\x00g\x00-\x00m\x00e\x00d\x00i\x00a\x00-\x00c\x00a\x00r\x00d\x00.\x00j\x00s' @ 16151 : 1 .. (end); will stop at (end)

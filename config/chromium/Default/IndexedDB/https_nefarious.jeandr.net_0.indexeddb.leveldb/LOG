@@ -1,0 +1,15 @@
+2021/08/18-18:42:28.405 1142 Reusing MANIFEST /root/.config/chromium/Default/IndexedDB/https_nefarious.jeandr.net_0.indexeddb.leveldb/MANIFEST-000001
+2021/08/18-18:42:28.405 1142 Recovering log #29
+2021/08/18-18:42:28.405 1142 Reusing old log /root/.config/chromium/Default/IndexedDB/https_nefarious.jeandr.net_0.indexeddb.leveldb/000029.log 
+2021/08/18-18:45:16.459 1206 Level-0 table #34: started
+2021/08/18-18:45:16.547 1206 Level-0 table #34: 5967 bytes OK
+2021/08/18-18:45:16.664 1206 Delete type=0 #29
+2021/08/18-18:45:16.664 1206 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2021/08/18-18:45:16.664 1206 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x01\x03\x01\x1b\x00N\x00E\x00F\x00A\x00R\x00I\x00O\x00U\x00S\x00-\x00W\x00A\x00T\x00C\x00H\x00_\x00T\x00V\x00_\x00E\x00P\x00I\x00S\x00O\x00D\x00E\x00S' @ 531 : 0
+2021/08/18-18:45:16.664 1206 Compacting 1@1 + 1@2 files
+2021/08/18-18:45:16.831 1206 Generated table #35@1: 36 keys, 3029 bytes
+2021/08/18-18:45:16.831 1206 Compacted 1@1 + 1@2 files => 3029 bytes
+2021/08/18-18:45:17.115 1206 compacted to: files[ 0 0 1 0 0 0 0 ]
+2021/08/18-18:45:17.115 1206 Delete type=2 #31
+2021/08/18-18:45:17.115 1206 Delete type=2 #34
+2021/08/18-18:45:17.116 1206 Manual compaction at level-1 from '\x00\x01\x01\x03\x01\x1b\x00N\x00E\x00F\x00A\x00R\x00I\x00O\x00U\x00S\x00-\x00W\x00A\x00T\x00C\x00H\x00_\x00T\x00V\x00_\x00E\x00P\x00I\x00S\x00O\x00D\x00E\x00S' @ 531 : 0 .. (end); will stop at (end)

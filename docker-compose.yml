@@ -13,4 +13,4 @@ services:
     volumes:
       - './start.sh:/start.sh'
       - './xorg.conf:/etc/X11/xorg.conf'
-      - '/config:/root/.config'
+      - './config:/root/.config'

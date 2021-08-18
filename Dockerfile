@@ -1,12 +1,20 @@
-FROM foundriesio/minideb:stretch
+FROM bitnami/minideb:buster
 
 RUN install_packages \
   sudo \
   xorg \
   chromium \
-  lightdm
+  firefox-esr \
+  task-xfce-desktop \
+  florence \
+  x11vnc \
+  dbus-x11 \
+  ncurses-bin \
+  ncurses-base \
+  onboard
 
-COPY start.sh /usr/bin/start.sh
+COPY start.sh /start.sh
 COPY xorg.conf /etc/X11/xorg.conf
 
-ENTRYPOINT ["/usr/bin/start.sh"]
+
+ENTRYPOINT ["/start.sh"]

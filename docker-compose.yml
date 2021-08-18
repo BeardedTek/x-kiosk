@@ -1,0 +1,16 @@
+version: '3.3'
+services:
+  x-kiosk:
+    privileged: true
+    container_name: x-kiosk
+    image: run
+    network_mode: host
+    restart: always
+    image: x-kiosk:xfce
+    environment:
+      - KIOSK_URL=http://kiosk.jeandr.net
+      - KIOSK_CLA=--start-maximized --no-first-run --disable --disable-translate --disable-infobars --disable-suggestions-service --kiosk
+    volumes:
+      - './start.sh:/start.sh'
+      - './xorg.conf:/etc/X11/xorg.conf'
+      - '/config:/root/.config'

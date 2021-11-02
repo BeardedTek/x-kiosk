@@ -1,4 +1,11 @@
-# x
+# x-kiosk:xfce
+
+Forked from https://github.com/EmbeddedAndroid/x-kiosk/
+
+This fork adds an on-screen keyboard (onboard) and xfce with a few custimizations.
+
+I specifically use this for a 7" 1024x600 touchscreen, but can be adapted for other applications.
+
 
 ## usage
 
